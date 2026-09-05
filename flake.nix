@@ -14,20 +14,20 @@
   in {
     devShells.${system}.default = pkgs.mkShell {
       packages = with pkgs; [
-        # OCaml / opam tooling
         opam
+        gmp
+        autoconf
+        which
+        libffi
         pkg-config
 
-        # SDL
         SDL2
 
-        # Vulkan
         vulkan-loader
         vulkan-headers
         vulkan-tools
         vulkan-validation-layers
 
-        # GLSL -> SPIR-V
         shaderc
         glslang
       ];

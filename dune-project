@@ -19,7 +19,12 @@
  (name vox)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml)
+  (depends
+  ocaml
+  dune
+  tsdl
+  ctypes
+  ctypes-foreign))
  (tags
   ("add topics" "to describe" your project)))
 
