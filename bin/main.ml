@@ -1,1 +1,1 @@
-let () = print_endline "Hello, World!"
+let () = print_endline "This is another test!"
