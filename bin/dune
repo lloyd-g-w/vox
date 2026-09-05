@@ -1,0 +1,4 @@
+(executable
+ (public_name vox)
+ (name main)
+ (libraries vox))
