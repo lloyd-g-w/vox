@@ -1,3 +1,7 @@
 (test
  (name test_vox)
  (libraries vox))
+
+(executable
+ (name vk_smoke)
+ (libraries vulkan ctypes))

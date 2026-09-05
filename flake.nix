@@ -33,6 +33,10 @@
       ];
 
       shellHook = ''
+        export LD_LIBRARY_PATH="${pkgs.lib.makeLibraryPath [
+          pkgs.vulkan-loader
+          pkgs.SDL2
+        ]}:$LD_LIBRARY_PATH"
         echo "OCaml Vulkan dev shell"
         echo "Vulkan:"
         vulkaninfo --summary 2>/dev/null | head -n 20 || true

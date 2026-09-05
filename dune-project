@@ -19,13 +19,14 @@
  (name vox)
  (synopsis "A short synopsis")
  (description "A longer description")
-  (depends
+ (depends
   ocaml
   dune
   tsdl
   ctypes
-  ctypes-foreign))
+  ctypes-foreign
+  vulkan)
  (tags
-  ("add topics" "to describe" your project)))
+  ("vulkan" "graphics" "voxel")))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
