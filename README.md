@@ -3,7 +3,7 @@
 An experimental voxel engine written in OCaml, using [Vulkan](https://www.vulkan.org/)
 for rendering and [SDL2](https://www.libsdl.org/) for windowing and input.
 
-As most projects nowadays, AI _has_ been used relatively extensively whilst writing this project (and its deps), though I actually want this to be good so all code has been reviewed by me!
+As most projects nowadays, AI _has_ been used relatively extensively in the creation of this project (and its deps), though I actually want this to be good so all code has been reviewed by me!
 
 ## Dependencies
 
