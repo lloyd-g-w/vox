@@ -1,7 +1,14 @@
 (test
  (name test_vox)
+ (modules test_vox)
  (libraries vox))
 
 (executable
  (name vk_smoke)
+ (modules vk_smoke)
  (libraries vulkan ctypes))
+
+(executable
+ (name sdl_draw)
+ (modules sdl_draw)
+ (libraries tsdl))

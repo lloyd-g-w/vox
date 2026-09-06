@@ -1,2 +1,5 @@
+(include_subdirs unqualified)
+
 (library
- (name vox))
+ (name vox)
+ (libraries tsdl vulkan))
