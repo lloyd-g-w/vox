@@ -3,9 +3,6 @@
 An experimental voxel engine written in OCaml, using [Vulkan](https://www.vulkan.org/)
 for rendering and [SDL2](https://www.libsdl.org/) for windowing and input.
 
-> ⚠️ Early work in progress — currently smoke tests for the Vulkan bindings and
-> SDL rendering, not yet a game.
-
 ## Dependencies
 
 ### OCaml packages
