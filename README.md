@@ -5,8 +5,7 @@ An experimental voxel engine written in OCaml, rendering through
 [wgpu-native](https://github.com/gfx-rs/wgpu-native) and using
 [SDL2](https://www.libsdl.org/) for windowing and input.
 
-> ⚠️ Early work in progress — an SDL2 window and the `wgpu` dependency are
-> wired up; the renderer itself has not been written yet. Not a game.
+As most projects nowadays, AI _has_ been used relatively extensively in the creation of this project (and its deps), though I actually want this to be good so all code has been reviewed by me!
 
 ## Dependencies
 
@@ -132,7 +131,3 @@ test/   # smoke tests and experiments
         #   test_vox.ml  — library tests
 flake.nix  # Nix dev shell with native deps
 ```
-
-## License
-
-See [LICENSE](LICENSE).
