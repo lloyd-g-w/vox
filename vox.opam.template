@@ -1,0 +1,11 @@
+# The wgpu bindings are not on the public opam repository, so the exact commit
+# this tree builds against is pinned here; `opam install . --deps-only` honours
+# it. To move to a newer commit, change the hash, run `dune build` (and
+# `dune promote` if it reports an opam-file diff), then re-run
+# `opam install . --deps-only`.
+pin-depends: [
+  [
+    "wgpu.dev"
+    "git+https://github.com/lloyd-g-w/wgpu-ocaml.git#3777b867245d7546a3655c3863cebd9b1551615a"
+  ]
+]
