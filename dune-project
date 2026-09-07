@@ -5,28 +5,31 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github lloyd-g-w/vox))
 
 (authors "Lloyd <hello@lloydgw.com>")
 
 (maintainers "Lloyd <hello@lloydgw.com>")
 
-(license LICENSE)
+(license GPL-3.0-only)
 
-(documentation https://url/to/documentation)
+(documentation https://github.com/lloyd-g-w/vox)
 
 (package
  (name vox)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "A voxel engine in OCaml, rendering with WebGPU (wgpu-native) and SDL2")
+ (description
+  "An experimental voxel engine written in OCaml. Windowing and input come from SDL2 (tsdl); rendering goes through WebGPU via the wgpu-ocaml bindings to wgpu-native.")
  (depends
-  ocaml
-  dune
+  (ocaml
+   (>= 5.2.0))
+  (dune
+   (>= 3.23))
   tsdl
   ctypes
   ctypes-foreign
-  vulkan)
+  wgpu)
  (tags
-  ("vulkan" "graphics" "voxel")))
+  ("webgpu" "wgpu" "graphics" "voxel")))
 
 ; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
