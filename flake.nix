@@ -2,7 +2,7 @@
   description = "OCaml WebGPU (wgpu-native) voxel game dev shell";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/b6bfbdf005461848579778f046ff8034a5ffaa42";
   };
 
   outputs = {
